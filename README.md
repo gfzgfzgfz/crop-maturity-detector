@@ -79,6 +79,8 @@ python train_banana.py
 
 训练完成后，模型保存在 `runs/classify/banana_ripeness/weights/` 目录下。
 
+![训练过程](images/4cdcdc0f-e51a-427a-b4ef-bc2f0ca989c3.png)
+
 ## 3. 运行 Web 界面
 
 ```bash
@@ -93,6 +95,8 @@ python app.py --share                                 # 创建公网分享链接
 ```
 
 启动后在浏览器打开 `http://localhost:7861`，上传香蕉图片即可得到分类结果和 Top-3 预测。
+
+![Web 运行界面](images/e19e93c8-3725-436b-ab2f-79bb003f5d6a.png)
 
 ## 模型路径配置
 
